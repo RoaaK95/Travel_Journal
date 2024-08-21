@@ -6,9 +6,19 @@ import '../style.css'
 
   function App() {
   
+    const cards = data.map(item => {
+      return(
+        <Card
+        {...item} 
+        />
+      )
+    })
   return (
     <> 
     <Navbar />
+    <section className='cards--list'>
+      {cards}
+    </section>
     </>
   )
     
