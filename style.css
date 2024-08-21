@@ -6,6 +6,7 @@ body{
     margin: 0;
     font-family: "Inter", sans-serif;
     font-size: 10.24px;
+    color: #2B283A;
 }
 
 /** NAVBAR **/
@@ -59,7 +60,8 @@ section{
 }
  
 .card--info{
-    padding: 20px;
+    padding: 10px;
+    padding-right: 0px;
 }
 .card--header {
     display: flex;
@@ -67,17 +69,15 @@ section{
 }
 
 .card--header div img{
-    width: 10px;
-    height: 13px;
-   margin: -2px;
+    width: 7px;
+    height: 9.55px;
+    margin-top: 2px;
 }
 
 .card--header div span{
-    color:#2B283A;
     letter-spacing: 2px;
-    font-size: 12px;
     text-transform: uppercase;
-    font-weight: 550;
+    font-weight: 400;
    
 }
 .google--map--link{
@@ -86,14 +86,18 @@ section{
 }
 .card--title{
   font-size: 25px;
-  font-weight: 800;
+  font-weight: 700;
   margin-top: 4px;
+  line-height: 30.26px;
+   
 }
 .card--date{
     font-weight: bold;
+    margin-bottom: -3px;
 }
 .card--description{
-    line-height: 150%;
+    line-height: 15.36px;
+    font-weight: 400;
 }
 
 

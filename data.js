@@ -27,6 +27,6 @@ export default [
         endDate: "18 Nov, 2021",
         description: "The Geiranger Fjord is a fjord in the Sunnmøre region of Møre og Romsdal county, Norway. It is located entirely in the Stranda Municipality.",
         imageUrl: "https://scrimba.com/links/travel-journal-norway-image-url"
-    } 
+    }
    
 ]
