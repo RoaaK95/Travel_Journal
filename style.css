@@ -4,6 +4,8 @@
 
 body{
     margin: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 10.24px;
 }
 
 /** NAVBAR **/
@@ -18,7 +20,7 @@ nav{
 
 
 .nav--text {
-    font-family: "Inter", sans-serif;
+   
     color: #ffffff;
     font-weight: 500;
    font-size: 14px;
@@ -26,5 +28,72 @@ nav{
    letter-spacing: -0.075em;
 }
 
+/** CARD **/
+section{
+    padding: 20px;
+}
+.cards--list{
+    display: flex;
+    flex-direction: column;
+     
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+   
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    width: 471px;
+    height: 168px;
+    gap: 10px;
+    margin: 20px;
+    
+}
+.card--img{
+   width: 125px;
+   max-height: 168px;
+   border-radius: 5px ;
+   object-fit: cover;
+}
+ 
+.card--info{
+    padding: 20px;
+}
+.card--header {
+    display: flex;
+    gap: 10px;
+}
+
+.card--header div img{
+    width: 10px;
+    height: 13px;
+   margin: -2px;
+}
+
+.card--header div span{
+    color:#2B283A;
+    letter-spacing: 2px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 550;
+   
+}
+.google--map--link{
+    color: #918E9B;
+    margin-top: 2px;
+}
+.card--title{
+  font-size: 25px;
+  font-weight: 800;
+  margin-top: 4px;
+}
+.card--date{
+    font-weight: bold;
+}
+.card--description{
+    line-height: 150%;
+}
 
 
