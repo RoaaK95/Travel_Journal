@@ -1,7 +1,8 @@
 # Travel Journal  
 
 ## Summary  
-This webApp is A travel journal page, a project created for the Scrimba React course.  
+- This webApp is A travel journal page, a project created for the Scrimba React course.
+- [LIVE VIEW](https://roaak95.github.io/Travel_Journal/)
 
 ## Technologies Used  
 - HTML  
